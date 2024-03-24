@@ -1,0 +1,84 @@
+/*////////////  Basic shared: /////////////////////////*/
+.Mbtm-1px{margin-bottom: 1px}
+.Mbtm-2px{margin-bottom: 2px}
+.Msafecolor{color: green}
+.Mcautioncolor{color: orange}
+.Mdangercolor{color: red}
+.Meditablecolor{color:blue}
+.Mwhitecolor{color: #ffffff}
+.Mheight100{height:100%}
+
+input{border: 1px solid;}
+.dirty {border-color: #5A5;
+    background: url("../img/icons/tick16px.png") center right no-repeat;
+    padding-right: 5px;
+}
+.error {
+    border-color: red;
+    background: url("../img/icons/cross16px.png") center right no-repeat;
+    padding-right: 5px;
+}
+
+.erroMsg{color: red;font-size: 90%}
+.warnMsg{color: orange;font-size: 90%}
+.infoMsg{font-size: 90%}
+
+/*//////////////Main frames for both staff and user: ///////////////////////*/
+.Mmain-row{
+    height:100%;
+    padding-top: 45px; /*45=[46(top)-1?] */
+    padding-bottom: 34px; /*35=[32(bottom)+2?]*/
+    overflow-y: auto;
+}
+.Mleft-navi{
+    padding: 0;
+    border-right: solid 1px lightgray;
+    max-height: 100%;
+    display:none;
+}
+.Mmid-list{
+    background-color: #ffffff;
+    max-height: 100%;
+    overflow: hidden;
+}
+.Mmid-list-locatn{
+    height:33px;
+    padding: 4px;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 90%;
+    border-bottom: 1px solid gray;
+}
+.Mmid-list-tab{
+    height: 100%;
+    margin-bottom: -62px;
+    padding-bottom: 62px /*62=[32(bottom)]+[29(page line)+1(border)]*/
+}
+.Mmid-list-tab-noPg{
+    height: 100%;
+    margin-bottom: -33px;
+    padding-bottom: 33px /*62=[32(bottom)]+[29(page line)+1(border)]*/
+}
+.Mmid-list-tab-div{
+    height:100%;
+    width:100%;
+    padding: 0;
+    overflow-y: auto
+}
+.Mmid-list-tab-tbd{
+    font-size: 90%;
+    border-bottom: solid 1px lightgray;
+    display: none
+}
+.Mmid-list-pg{
+    height: 29px;
+    padding-top:1px;
+    font-size: 90%;
+    border-top: solid 1px #bad3a4
+}
+.Mright-ctrl{
+    border-left: solid 1px #bad3a4;
+    max-height: 100%;
+    padding: 0
+}
+/*/////////////// ///////////////////////////////////////*/
